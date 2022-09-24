@@ -20,7 +20,7 @@ const petCategories = [
   {name: 'CATS', icon: 'cat'},
   {name: 'DOGS', icon: 'dog'},
   {name: 'BIRDS', icon: 'bird'},
-  {name: 'Mammals', icon: 'dog'},
+  {name: 'Mammals', icon: 'rabbit'},
 ];
 
 const Card = ({pet, navigation, selectedCategoryIndex}) => {
