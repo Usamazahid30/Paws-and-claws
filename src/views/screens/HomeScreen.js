@@ -19,8 +19,8 @@ const {height} = Dimensions.get('window');
 const petCategories = [
   {name: 'CATS', icon: 'cat'},
   {name: 'DOGS', icon: 'dog'},
-  {name: 'BIRDS', icon: 'ladybug'},
-  {name: 'MAMMALS', icon: 'cow'},
+  {name: 'BIRDS', icon: 'bird'},
+  {name: 'Mammals', icon: 'dog'},
 ];
 
 const Card = ({pet, navigation, selectedCategoryIndex}) => {
